@@ -2,6 +2,7 @@
 
 PyTorch implementation of a Handwritten Text Recognition (HTR) system that focuses on automatic detection and recognition of handwritten marginalia texts i.e., text written in margins or handwritten notes. Faster R-CNN network is used for detection of marginalia and [AttentionHTR](https://github.com/dmitrijsk/AttentionHTR) is used for word recognition. The data comes from early book collections (printed) found in the Uppsala University Library, with handwritten marginalia texts.
 
+This is a work under progress. For more details, refer to our paper at [arXiv]().
 
 ## Dependencies 
 
@@ -17,11 +18,11 @@ python3 -m pip install -r Project-Marginalia/requirements.txt
 
 ## Demo of our pre-trained model
 
-### Marginalia prediction
+### Marginalia detection
 * Download the pre-trained model `faster_r_cnn_weights.pt` from [here](https://drive.google.com/drive/folders/1k2CxBbIyVp_7iq5-vQgBsP5nOtMSlSIj?usp=sharing) and place it into `/Project-Marginalia/model/`.
 * Create the folder `Project-Marginalia/model/data/test_images/` and place in them the test images.
 * Create the folder `Project-Marginalia/model/results/`
-* To predict and visualize the marginalias, run ```python3 model/test.py```
+* To detect and visualize the marginalias, run ```python3 model/test.py```
 
 ### Marginalia Segmentation
 * If you want to use your model on your own set of images, use the image_to_bboxes.py script. In it you will have to add the path to your model, folder of your dataset, and the location where you want the predicted marginalia to be saved. Then run 'python3 image_to_bboxes.py'.
@@ -48,6 +49,6 @@ Ekta Vats (ekta.vats@abm.uu.se)
 
 Adam Axelsson (adam.axelsson.4529@student.uu.se)
 
-Liang Cheng (liang.cheng.8263@student.uu.se)
+Liang Cheng (chengliang653@gmail.com)
 
-Jonas Frankemölle (jonas.frankemolle.9234@student.uu.se)
+Jonas Frankemölle (frankemoelle.jonas@gmail.com)
