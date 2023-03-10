@@ -38,6 +38,7 @@ python3 -m pip install -r Project-Marginalia/requirements.txt
 * This work has been partially supported by the Matariki Network Initiation Grant: "Marginalia and Machine Learning: a Study of Durham University and Uppsala University Marginalia Collections".
 * The computations/data handling were enabled by resources provided by the Swedish National Infrastructure for Computing (SNIC) at Chalmers Centre for Computational Science and Engineering (C3SE) partially funded by the Swedish Research Council through grant agreement no. 2018-05973, project Dnr: SNIC 2022/22-1084.
 * The authors would like to thank the Centre for Digital Humanities Uppsala ([CDHU](https://www.abm.uu.se/cdhu-eng)) and Uppsala University Library ([Alvin](https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-organisation%3A16&dswid=-1828)) for offering the dataset.
+* This project was done as part of the Data Science project course, team: Adam Axelsson, Liang Cheng, Jonas Frankemölle, and Ekta Vats (supervisor).
 
 
 ## References
